@@ -1,0 +1,27 @@
+blog-platform/
+│
+├── client/
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── create-post.html
+│   ├── style.css
+│   └── script.js
+│
+├── server/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── posts.js
+│   │   └── comments.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Post.js
+│   │   └── Comment.js
+│   │
+│   └── middleware/
+│       └── auth.js
+│
+├── package.json
+└── README.md
